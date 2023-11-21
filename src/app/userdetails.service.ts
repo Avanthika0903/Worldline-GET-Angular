@@ -11,6 +11,6 @@ export class UserdetailsService {
   constructor(private http:HttpClient) { }
 
   storeuserData(data:any):Observable<any>{
-    return this.http.post("http://www.localhost:8080/api/auth/signup",data)
+    return this.http.post("http://www.localhost:8080/api/auth/signup",data) //check
   }
 }
